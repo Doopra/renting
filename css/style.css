@@ -1,0 +1,392 @@
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+.nav-link{
+    color:black;
+    font-weight:600;
+}
+.navbar-brand{
+    color:black;
+    font-weight:bold;
+}
+body{
+    font-family: 'Merriweather', serif;
+
+    
+}
+.navbar-brand span{
+    color:#ff7782;
+
+}
+
+.main h1{
+    font-size:3rem;
+    font-width: 700;
+
+}
+.card{
+    border: none;
+}
+.main select{
+    height: 40px;
+    width: 90%;
+    outline: none;
+    padding: 0 20px;
+
+}
+.main span{
+    color: rgba(104, 89, 89);
+    font-weight: 600;
+}
+.main .btn1{
+    background-color: #ff7782;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 25%;
+    height: 40px;
+    margin-top: 15px;
+}
+.btn1:hover{
+    background-color: tomato;
+    transition:0.5s;
+}
+.land{
+    background: white;
+    height: 100px;
+}
+.btn-2{
+    background: #ff7782;
+    color: white;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+}
+.rent{
+    background:rgb(238, 235, 235);
+}
+.col-lg-4 p{
+   
+}
+.p-3{
+    font-weight: bold;
+    
+
+}
+.card p{
+    padding:10px;
+}
+.btnc{
+    height: 45px;
+    width: 150px;
+    background-color: #ff7782;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    position:absolute;
+    left: 30%;
+    top: 20%;
+    padding: 10px;
+    font-weight: 500;
+
+}
+.rent h1{
+    font-weight: 700;
+}
+.content .card{
+    background:none;
+    opacity: 0.7;
+}
+
+.searching{
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    padding-top: 0;
+    
+    
+}
+.search-bar{  
+        width: 71.5%;
+        height: 40px;
+        left: 30%;
+}
+.card-body{
+    height: 200px;
+    background: none;
+}
+..navbar-contact-image-container {
+    border-radius: 50%;
+    top: -3px;
+    left: -7px;
+}
+
+.contact-img-md {
+    
+    top: -2px;
+    left: -17px;
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+}
+.navbar-contact-image-container{
+    width: 200px;
+    display: flex;
+    
+}
+.contact-wrapper{
+    width: 140px;
+    height:40px;
+    background: #ff7782;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 10px;
+}
+.whatsapp-contact{
+    margin-right:10px;
+    border-right:2px solid gray;
+
+}
+.phone-number{
+    width:80%;
+    background: #ff7782;
+    border:none;
+    color:white;    
+    font-size: 10px;
+}
+.first-number{
+    font-size:10px;
+    font-weight: bold;
+}
+
+.contact-wrapper p{
+    font-size:10px;
+    font-weight: bold;
+    color:white;
+    
+    
+}
+.newsletter{
+    background: rgb(238, 235, 235);
+    
+    
+}
+.newsletter .row{
+    justify-content: space-between;
+    margin-right: 50px;
+
+}
+.subscribe-text{
+    width: 400px;
+}
+.newsletter .col-lg-5{
+    padding: 30px;
+    height:500px;
+}
+.subscribe{
+    background:purple;
+    width: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,10))
+
+    
+}
+.text-2xl{
+    font-size: 30px;
+    color: white;
+    font-family:impact;
+    margin-top: 40px;
+}
+.mb-4{
+    margin-top: 70px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.w-full{
+    width: 100%;
+    margin-bottom: 10px;
+    
+   
+
+}
+
+.subscribe-btn{
+    background: #ff7782;
+    border: none;
+}
+
+.btnf{
+    background:black;
+    height: 45px;
+    width: 200px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    color:white;
+}
+
+
+/*-------------- background image ------------*/
+.banner{
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    overflow: hidden;
+     
+    
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    
+}
+#slideImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    height: inherit !important;   
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    position: absolute;
+    top: 0;
+}
+
+
+.content{
+    width: 95%;
+    margin: 0px auto 0;
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-size: 36px;
+}
+.content h3{
+    width: 80%;
+    margin: 20px auto 100px;
+    font-weight: 100;
+    line-height: 25px;
+}
+footer p{
+    color:#999;
+    line-height: 25px;
+}
+footer h2, h3{
+    color:#fff;
+}
+footer h2{
+
+    font-size: 18px;
+}
+.footer-top{
+    background: #343a40 ;
+    padding: 80px 0;
+}
+.segment-one h3{
+    font-family: Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #fff;
+    letter-spacing: 3px;
+    
+    
+}
+.segment-one a{
+    text-decoration:none;
+}
+.segment-one span{
+    color:#ff7782;
+
+}
+
+.segment-two h2{
+    color: #fff;
+    font-family: Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    
+}
+.segment-two h2:before{
+    content: '|';
+    color: #ff7782;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    line-height: 40px;
+}
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.segment-three h2{
+    color: #fff;
+    font-family: Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transfrom: uppercase;
+}
+.segment-three h2:before{
+    content: '|';
+    color: #ff7782;
+    padding-right: 10px;
+}
+.segment-two a li{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-two a li{
+    font-size: 20px;
+    margin-top:8px;
+    color: #fff;
+    padding: 10px 12px;
+}
+.segment-two h2{
+    color: #fff;
+    font-family: Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transfrom: uppercase;
+
+}
+.segment-four h2:before{
+    content: '|';
+    color: #ff7782;
+    padding-right: 10px;
+
+}
+.news-paragraph{
+    padding-top: 0px;
+}
+.contact-form {
+    width: 400px;
+    height: 50px;
+    margin-right:3px;
+    margin-top: 10px;
+}
+.submit-form {
+    background: #ff7782;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: #fff;
+    text-transform: uppercase;
+    height: 50px;
+}
